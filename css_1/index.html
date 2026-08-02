@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #A {
+            display: flex;
+            /* flex-direction: column; */
+            border: 2px solid blue;
+            background-color: blue;
+            margin: 5px;
+        }
+
+        #A p {
+            color: green;
+        }
+
+        #A h1 {
+            color: red;
+        }
+
+        #divider {
+            /* padding: 5px; */
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+            border-radius: 3px;
+            /* height: 50px; */
+            border: 1px solid black
+        }
+
+        #divider .dvdr {
+            height: 5px;
+            /* border-radius: 2px; */
+            width: 200px;
+
+        }
+
+        #one {
+            flex: 1;
+            border-radius: 2px;
+
+            background-color: red;
+        }
+
+        #divider #two {
+            flex: 1;
+            background-color: green;
+        }
+
+        #divider #three {
+            border-radius: 2px;
+
+            flex: 1;
+            background-color: orange;
+        }
+
+
+
+
+        #container_two {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 5px;
+            font-size: 2.5rem;
+
+            background-color: rgb(190, 190, 156);
+        }
+
+        #container_two p {
+            padding: 0;
+            margin: 0;
+            color: violet;
+        }
+
+        #container_two h1 {
+            padding: 0;
+            margin: 0;
+            color: rgb(189, 27, 152)
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container_two">
+        <h1>HELLO</h1>
+        <p>I am dar</p>
+        <p>I am fullstack intern @nexilis</p>
+    </div>
+
+    <div id="divider">
+        <div class="dvdr" id="one"></div>
+        <div class="dvdr" id="two"></div>
+        <div class="dvdr" id="three"></div>
+    </div>
+    <div id="container_two">
+        <h1>HELLO</h1>
+        <p>I am dar</p>
+        <p>I am fullstack intern @nexilis</p>
+    </div>
+</body>
+
+</html>
