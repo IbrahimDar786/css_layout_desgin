@@ -40,6 +40,11 @@
             background-color: rgb(117, 53, 196);
         }
 
+
+        #hero>.right>p:hover {
+            color: green;
+        }
+
         .left {
             flex: 1;
             border: 2px solid brown;
@@ -47,14 +52,31 @@
 
         .right {
             flex: 1;
-             
+
             border: 2px solid green;
-           
+
         }
-        img{
-            
-             height: 90%;
-             width:90%
+
+        img {
+
+            height: 90%;
+            width: 90%
+        }
+
+        #kuch>span>span {
+            border: 2px solid red;
+        }
+
+        #kuch>span>h1 {
+            border: 2px solid green;
+        }
+
+        #kuch>span>h1:hover {
+            background-color: #fff;
+        }
+
+        div:hover {
+            border: 5px solid pink;
         }
     </style>
 </head>
@@ -82,6 +104,15 @@
             <p>my image</p>
         </div>
     </div>
+
+    <div id="kuch">
+        <span>
+            Span #1, in the div.
+            <span>Span #2, in the span that's in the div.</span>
+            <h1>I am h1</h1>
+        </span>
+    </div>
+    <span>Span #3, not in the div at all.</span>
 </body>
 
 </html>
